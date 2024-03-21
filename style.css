@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+{
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background: #000000;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open sans", sans-serif;
+    color: #fff;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: 0.5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padling: lem;
+    overflow: hidden;
+}
+
+.card {
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3B1eWY3emV5YjRxb3lyOXExNDRpZ2I3YTg2MzM2dnVkeTF2YnZ4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cMQOjPEhqZyW5cINJg/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: center;
+}
+
+@media only screen and (max-height: 640px) {
+    .card {
+        flex-direction: row-reverse;
+    }
+    .card img.birthday {
+        width: 100%;
+        max-width: 50vw;
+        max-height: unset;
+    }
+}
+
+img.birthday {
+    max-height: 40vh;
+}
+
+.text {
+    padding: lem;
+    color: #e9e4e4;
+}
+
+.muted {
+    opacity: 0.8;
+}
+
+.space {
+    height: 100px;
+}
+
+@keyframes identifier {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+body.play-music {
+    animation: fadein 2s ease-in-out;
+}
+
+animation: fadein 2s ease-in-out;
+
+}
